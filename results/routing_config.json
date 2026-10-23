@@ -1,0 +1,12 @@
+{
+  "base": {
+    "classification": "P2",
+    "factual_qa": "P1",
+    "reasoning": "P5"
+  },
+  "escalation_target": {
+    "classification": "P2",
+    "factual_qa": "P3",
+    "reasoning": "P5"
+  }
+}

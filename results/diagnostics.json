@@ -1,0 +1,63 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "gpu": "Tesla T4",
+  "gpu_tdp_w": 70,
+  "total_power_w": 145,
+  "num_samples_per_task": 300,
+  "batch_size": 8,
+  "max_new_tokens": 128,
+  "energy_model": "GPU TDP 70W + CPU 65W + RAM 10W",
+  "router_accuracy": 0.653,
+  "router_hard_precision": 0.2,
+  "router_hard_recall": 0.6,
+  "base_strategy": {
+    "classification": "P2",
+    "factual_qa": "P1",
+    "reasoning": "P5"
+  },
+  "escalation_target": {
+    "classification": "P2",
+    "factual_qa": "P3",
+    "reasoning": "P5"
+  },
+  "router_tau": {
+    "classification": null,
+    "factual_qa": null,
+    "reasoning": null
+  },
+  "per_task": {
+    "SST-2": {
+      "base": "P2",
+      "target": "P2",
+      "tau": null,
+      "calib_base_accuracy": 0.917,
+      "test_accuracy": 0.942,
+      "test_escalation_rate": 0.0,
+      "best_cheap": "P2",
+      "best_cheap_accuracy": 0.942,
+      "test_cot_accuracy": 0.917
+    },
+    "BoolQ": {
+      "base": "P1",
+      "target": "P3",
+      "tau": null,
+      "calib_base_accuracy": 0.761,
+      "test_accuracy": 0.792,
+      "test_escalation_rate": 0.0,
+      "best_cheap": "P0",
+      "best_cheap_accuracy": 0.817,
+      "test_cot_accuracy": 0.758
+    },
+    "ARC": {
+      "base": "P5",
+      "target": "P5",
+      "tau": null,
+      "calib_base_accuracy": 0.911,
+      "test_accuracy": 0.892,
+      "test_escalation_rate": 0.0,
+      "best_cheap": "P2",
+      "best_cheap_accuracy": 0.908,
+      "test_cot_accuracy": 0.792
+    }
+  }
+}

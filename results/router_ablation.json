@@ -1,0 +1,98 @@
+{
+  "SST-2": {
+    "Learned": {
+      "accuracy": 0.942,
+      "total_energy_kwh": 9.9e-05,
+      "escalation_rate": 0.0
+    },
+    "Uncalibrated": {
+      "accuracy": 0.942,
+      "total_energy_kwh": 9.9e-05,
+      "escalation_rate": 0.0
+    },
+    "Always-Base": {
+      "accuracy": 0.942,
+      "total_energy_kwh": 9.9e-05,
+      "escalation_rate": 0.0
+    },
+    "Always-CoT": {
+      "accuracy": 0.917,
+      "total_energy_kwh": 0.002201,
+      "escalation_rate": 0.0
+    },
+    "Random": {
+      "accuracy": 0.925,
+      "total_energy_kwh": 0.00018,
+      "escalation_rate": 0.0
+    },
+    "Confidence-Cascade": {
+      "accuracy": 0.925,
+      "total_energy_kwh": 0.000521,
+      "escalation_rate": 0.167
+    }
+  },
+  "BoolQ": {
+    "Learned": {
+      "accuracy": 0.792,
+      "total_energy_kwh": 0.000265,
+      "escalation_rate": 0.0
+    },
+    "Uncalibrated": {
+      "accuracy": 0.758,
+      "total_energy_kwh": 0.003433,
+      "escalation_rate": 0.925
+    },
+    "Always-Base": {
+      "accuracy": 0.792,
+      "total_energy_kwh": 0.000265,
+      "escalation_rate": 0.0
+    },
+    "Always-CoT": {
+      "accuracy": 0.758,
+      "total_energy_kwh": 0.003408,
+      "escalation_rate": 0.0
+    },
+    "Random": {
+      "accuracy": 0.808,
+      "total_energy_kwh": 0.000428,
+      "escalation_rate": 0.0
+    },
+    "Confidence-Cascade": {
+      "accuracy": 0.767,
+      "total_energy_kwh": 0.00141,
+      "escalation_rate": 0.317
+    }
+  },
+  "ARC": {
+    "Learned": {
+      "accuracy": 0.892,
+      "total_energy_kwh": 0.000189,
+      "escalation_rate": 0.0
+    },
+    "Uncalibrated": {
+      "accuracy": 0.892,
+      "total_energy_kwh": 0.000189,
+      "escalation_rate": 0.0
+    },
+    "Always-Base": {
+      "accuracy": 0.892,
+      "total_energy_kwh": 0.000189,
+      "escalation_rate": 0.0
+    },
+    "Always-CoT": {
+      "accuracy": 0.792,
+      "total_energy_kwh": 0.003852,
+      "escalation_rate": 0.0
+    },
+    "Random": {
+      "accuracy": 0.867,
+      "total_energy_kwh": 0.000992,
+      "escalation_rate": 0.0
+    },
+    "Confidence-Cascade": {
+      "accuracy": 0.875,
+      "total_energy_kwh": 0.001245,
+      "escalation_rate": 0.283
+    }
+  }
+}

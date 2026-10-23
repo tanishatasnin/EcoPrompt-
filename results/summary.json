@@ -1,0 +1,19 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "num_samples_per_task": 300,
+  "test_split_fraction": 0.4,
+  "total_energy_reduction_vs_cot_pct": 94.2,
+  "cost_reduction_vs_cot_pct": 94.2,
+  "avg_accuracy_retention_vs_cot_pct": 106.4,
+  "avg_cot_accuracy": 0.822,
+  "avg_ecoprompt_accuracy": 0.875,
+  "avg_best_cheap_baseline_accuracy": 0.889,
+  "router_accuracy": 0.653,
+  "escalation_targets": {
+    "classification": "P2",
+    "factual_qa": "P3",
+    "reasoning": "P5"
+  },
+  "energy_model": "GPU TDP 70W + CPU 65W + RAM 10W",
+  "electricity_price_usd_per_kwh": 0.15
+}

@@ -1,0 +1,6 @@
+Highlights
+- Calibration-only routing selects a cheap prompt per task and gates escalation.
+- Prompt selection cuts inference energy by about an order of magnitude.
+- A two-point calibration rule rejects escalation that does not help.
+- Fixed-threshold cascades over-escalate; gating removes the accuracy loss.
+- Every table and figure regenerates from the raw run outputs.

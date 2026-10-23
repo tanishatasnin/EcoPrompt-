@@ -1,0 +1,26 @@
+{
+  "SST-2": {
+    "accuracy": 0.942,
+    "total_energy_kwh": 9.9e-05,
+    "escalation_rate": 0.0,
+    "avg_response_tokens": 2,
+    "ci_low": 0.9,
+    "ci_high": 0.983
+  },
+  "BoolQ": {
+    "accuracy": 0.792,
+    "total_energy_kwh": 0.000265,
+    "escalation_rate": 0.0,
+    "avg_response_tokens": 3,
+    "ci_low": 0.716,
+    "ci_high": 0.858
+  },
+  "ARC": {
+    "accuracy": 0.892,
+    "total_energy_kwh": 0.000189,
+    "escalation_rate": 0.0,
+    "avg_response_tokens": 2,
+    "ci_low": 0.833,
+    "ci_high": 0.942
+  }
+}
